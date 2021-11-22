@@ -1,0 +1,17 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "cloudformation",
+            "title": "cdk-max",
+            "timeOffsetInMs": 0,
+            "awsProfile": "max",
+            "stacks": [
+                {
+                    "region": "us-east-1",
+                    "stackName": "CdkFirstAppStack",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}
